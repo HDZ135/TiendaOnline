@@ -120,29 +120,29 @@ h1, h2{
 }
 @keyframes ban {
     0%{
-        background-image: url(./img/imagen1.png);
+        background-image: url(../img/imagen1.png);
         
     }
     25%{
-        background-image: url(./img/imagen1.png);
+        background-image: url(../img/imagen1.png);
     }
     26%{
-        background-image: url(./img/imagen2.png);
+        background-image: url(../img/imagen2.png);
     }
     50%{
-        background-image: url(./img/imagen2.png);
+        background-image: url(../img/imagen2.png);
     }
     51%{
-        background-image: url(./img/imagen3.png);
+        background-image: url(../img/imagen3.png);
     }
     75%{
-        background-image: url(./img/imagen3.png);
+        background-image: url(../img/imagen3.png);
     }
     76%{
-        background-image: url(./img/logo.png);
+        background-image: url(../img/logo.png);
     }
     100%{
-        background-image: url(./img/logo.png);
+        background-image: url(../img/logo.png);
     }
 }
 .seccion2 {
