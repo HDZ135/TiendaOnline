@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+h1, h2{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.nav-logo{
+    display: inherit;
+    align-items: center;
+    font-size: 10px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #BF3F61;
+}
+.nav img{
+    width: 15%;
+    padding: 10px;
+}
+.links-nav{
+    padding: 10px;
+}
+.links-nav ul, a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: #000000;
+}
+.links-nav li{
+    margin: 0px 10px;
+    font-size: large;
+    transition: background-color .5s, padding .5s;
+}
+.links-nav a:hover, li:hover{
+    background-color: #BF3F61;
+    padding: 5px;
+    transition: background-color .5s, padding .5s;
+    border-radius: 5px;
+    color: #f7f7f7;
+}
+.seccion1{
+    background-color: #BF3F61;
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(70vh - 100px);
+    margin: 0 auto;
+    color: #f7f7f7;
+}
+.mensajes{
+    margin: 10px;
+    padding: 20px;
+}
+.mensajes p{
+    font-family: 'Montserrat', serif;
+    font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.mensajes button{
+    outline: none;
+    border: 1px ;
+    padding: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-family: 'Montserrat', serif;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    transition: background-color .5s, color .5s, transform .5s;
+}
+.mensajes button:hover{
+    background-color: #d60c42;
+    color: #f7f7f7;
+    transform: scale(1.1);
+    transition: background-color .5s, color .5s, transform .5s;
+    border-radius: 5px;
+}
+.mensajes2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url(/img/imagen1.png);
+    animation: ban 10s infinite linear;
+    width: auto;
+    height: 300px;
+    background-repeat: no-repeat;
+    animation-timing-function: ease-in-out;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.mensajes2 h1{
+    color: #BF3F61;
+    background-color: #f7f7f7;
+}
+@keyframes ban {
+    0%{
+        background-image: url(/img/imagen1.png);
+        
+    }
+    25%{
+        background-image: url(/img/imagen1.png);
+    }
+    26%{
+        background-image: url(/img/imagen2.png);
+    }
+    50%{
+        background-image: url(/img/imagen2.png);
+    }
+    51%{
+        background-image: url(/img/imagen3.png);
+    }
+    75%{
+        background-image: url(/img/imagen3.png);
+    }
+    76%{
+        background-image: url(/img/logo.png);
+    }
+    100%{
+        background-image: url(/img/logo.png);
+    }
+}
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    width: 40%;
+    text-align: center;
+    display: inherit;
+    flex-direction: inherit;
+    
+}
+
+.cards-info{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+}
+.card i{
+    font-size: 4rem;
+}
+.card {
+    background-color: #D96C94;
+    padding: 45px 50px;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
