@@ -4,8 +4,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
+
+:root {
+    --main-color1: #BF3F61;
+    --main-color2: #C13452;
+    --main-color3: #d60c42;
+    --main-color4: #D96C94;
+    --main-color5: #e9adad;
+    --main-color6: #f7f7f7;
+    --main-color7: #000000;
+    --main-color8: #ffffff;
+    --main-color9: #ffffff;
+    --main-color0: #ffffff;
+    }
+/*
+
+
+*/
 body{
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
@@ -29,10 +46,12 @@ h1, h2{
     display: inherit;
     align-items: center;
     font-size: 10px;
+    color: #BF3F61;
+}
+.nav-logo>h1{
     font-family: "Shrikhand", serif;
     font-weight: 400;
     font-style: normal;
-    color: #BF3F61;
 }
 .nav img{
     width: 15%;
@@ -41,7 +60,7 @@ h1, h2{
 .links-nav{
     padding: 10px;
 }
-.links-nav ul, a{
+.links-nav ul, .links-nav a{
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -55,7 +74,7 @@ h1, h2{
     font-size: large;
     transition: background-color .5s, padding .5s;
 }
-.links-nav a:hover, li:hover{
+.links-nav a:hover, .links-nav li:hover{
     background-color: #BF3F61;
     padding: 5px;
     transition: background-color .5s, padding .5s;
@@ -168,8 +187,9 @@ h1, h2{
     margin: 20px auto;
     width: 80%;
 }
-.card i{
+.card i {
     font-size: 4rem;
+    margin: 10px auto;
 }
 .card {
     background-color: #D96C94;
@@ -177,5 +197,132 @@ h1, h2{
     text-align: center;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 5px;
+    margin: 0px 15px;
 }
 
+.seccion3 {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9adad;
+    margin: 15px auto;
+}
+.seccion3-card {
+    display: inherit;
+    justify-content: space-around;
+    align-items: inherit;
+}
+.seccion3-info {
+    width: 40%;
+}
+.seccion3-info p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+button.btn-seccion3 {
+    padding: 9px;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    font-size: 1rem;
+    font-family: 'Montserrat', serif;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+    color: #C13452;
+    transition: background-color .5s, color .5s, transform .5s;
+}
+button.btn-seccion3:hover{
+    background-color: var(--main-color2);
+    color: #f7f7f7;
+}
+
+
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+}
+.footer-sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.footer-sec1 h2, .footer-sec2 h2, .footer-sec3 h2{
+    text-transform: uppercase;
+}
+.footer img {
+    width: 170px;
+    margin: 20px 0;
+}
+.footer-sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.footer-sec2 ul, .footer-sec2 a {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+}
+.footer-sec2 li{
+    margin: 10px 10px;
+    font-size: large;
+    transition: background-color .5s, padding .5s;
+}
+.footer-sec2 a:hover, .footer-sec2 li:hover{
+    background-color: #BF3F61;
+    padding: 5px;
+    transition: background-color .5s, padding .5s;
+    border-radius: 5px;
+    color: #f7f7f7;
+}
+.footer-sec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.formulario-footer {
+    margin: 42px;
+    width: 90%;
+}
+.formulario-footer input {
+    width: 60%;
+    height: 48px;
+    padding: 5px;
+    font-size: 15px;
+}
+.formulario-footer button {
+    width: 30%;
+    height: 48px;
+    background-color: var(--main-color3);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--main-color0);
+}
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
