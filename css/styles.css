@@ -216,6 +216,8 @@ h1, h2{
 }
 .seccion3-info {
     width: 40%;
+    background-color: #df5f77;
+    padding: 3%;
 }
 .seccion3-info p {
     font-family: "Montserrat", sans-serif;
@@ -325,4 +327,130 @@ fieldset {
     padding: 0;
     margin: 0;
     border: 0;
+}
+.tarjetaConstruccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5% auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 50%;
+    height: 450px;
+    background-color: antiquewhite;
+    padding: 5%;
+}
+.btnConstruccion {
+    height: 30px;
+    margin: 20px 0;
+    padding: 5px;
+    outline: none;
+    border: 1px solid;
+    border-color: #000000;
+    background-color: var(--main-color3);
+    color: var(--main-color0);
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+}
+.btnConstruccion:hover{
+    background-color: var(--main-color0);
+    color: var(--main-color3);
+    transition: background-color 1s, color 1s;
+}
+i.fa-solid.fa-wrench {
+    font-size: 60px;
+}
+/* clases de productos*/
+.catalogo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 98%;
+    margin: 15px auto;
+}
+.productos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    margin: 20px 10px;
+    width: 80%;
+}
+.filtro {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 30px;
+    position: sticky;
+    top: 20%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    z-index: 100;
+}
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 25px 60px;
+    background-color: #fdfdfd;
+    margin: 10px;
+}
+.tarjeta img {
+    width: 45%;
+}
+
+
+
+
+@media (max-width: 872px) {
+    .nav{
+        height: 100px;
+    }
+    .nav-logo{
+        font-size: 5px;
+    }
+    .nav img {
+        width: 41%;
+        padding: 8px
+    }
+    .links-nav li {
+        font-size: 15px;
+    }
+    .seccion1{
+        flex-direction: column;
+        height: calc(80vh);
+    }
+    .mensajes2{
+        height: 210px;
+    }
+    .mensajes2 h1 {
+        font-size: 1.4rem;
+    }
+    .cards-info {
+        grid-template-columns: 100%;
+    }
+    .card{
+        margin: 20px 15px;
+    }
+    .seccion3-card {
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .imagenMujer {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccion3-info {
+        width: 65%;
+        margin: 10px 0px;
+    }
+    .footer{
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .tarjetaConstruccion {
+        width: 90%;
+        height: 578px;
+        text-align: center;
+    }
 }

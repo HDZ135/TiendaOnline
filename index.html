@@ -17,19 +17,19 @@
         <div class="links-nav">
             <nav>
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Catálogo</a></li>
-                    <li><a href="">Sobre Vally</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#sobre">Sobre Vally</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>
     </div>
-    <div class="seccion1">
+    <div id="inicio" class="seccion1">
         <div class="mensajes">
             <h1>Tienda en línea minorista<br> y mayorista</h1>
             <p>Cada fin de semana se surten productos nuevos<br>Durante la semana puedes apartar o encargar algún producto<br> que busques o que esté en la página.</p>
-            <button type="button">Ver productos</button>
+            <button id="btnCatalogo" type="button">Ver productos</button>
         </div>
         <div class="mensajes2">
            <h1>#DISPONIBLEVALLY</h1>
@@ -37,7 +37,7 @@
     </div>
     <div class="seccion2">
         <div class="titulo">
-            <h1>Un poco sobre Vally MakeUp</h1>
+            <h1>Ofreciendo calidad</h1>
             <hr>
         </div>
         
@@ -45,31 +45,33 @@
             <div class="card">
                 <i class="fa-solid fa-truck" style="color: #ffffff;"></i>
                 <h3>Entregas seguras</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus expedita eos voluptate iusto excepturi quasi</p>
+                <p>¡Descubre la comodidad y seguridad de nuestras entregas personales y deja que la belleza llegue a ti en su forma más exclusiva!</p>
             </div>
             <div class="card">
                 <i class="fa-solid fa-dollar-sign" style="color: #ffffff;"></i>
                 <h3>Precios Asequibles</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus expedita eos voluptate iusto excepturi quasi</p>
+                <p>Descubre una nueva forma de embellecerte sin romper el banco. ¡Haz tu pedido hoy y disfruta de la belleza asequible que te mereces!</p>
             </div>
             <div class="card">
                 <i class="fa-solid fa-medal" style="color: #ffffff;"></i>
                 <h3>La mejor calidad</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus expedita eos voluptate iusto excepturi quasi</p>
+                <p>Experimenta la excelencia con nuestra gama de productos de maquillaje de la más alta calidad.</p>
             </div>
         </div>
     </div>
-    <div class="seccion3">
+    <div id="catalogo" class="seccion3">
         <div class="seccion3-card">
-            <img src="./img/young-woman-wearing-eyeglasses-using-laptop-against-white-background-removebg-preview.png" alt="imagen mujer buscando">
+            <div class="imagenMujer">
+                <img  src="./img/stunning-woman-with-wavy-hairstyle-expressing-emotions-removebg-preview.png" alt="imagen mujer buscando">
+            </div>
             <div class="seccion3-info">
                 <div>
                     <h2>Consulta el catálogo</h2>
                     <hr>
                 </div>
                 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ex, ut est rem nihil maiores consectetur </p>
-                <button class="btn-seccion3">Ver Catálogo</button>
+                <p>Consulta nuestro catálogo hoy mismo y comienza tu viaje hacia una belleza deslumbrante </p>
+                <button id="btnCatalogo2" type="button" class="btn-seccion3">Ver Catálogo</button>
             </div>
         </div>
         <!--<a href="https://www.freepik.com/free-photo/young-woman-wearing-eyeglasses-using-laptop-against-white-background_3699765.htm#fromView=search&page=1&position=15&uuid=a50889ac-63c1-47a6-b100-d47bcb1ca0a6">Image by freepik</a>-->
@@ -92,12 +94,12 @@
         </div>
         <div class="footer-sec3">
             <h2>Entérate</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Suscríbete para obtener las últimas noticias de nuestros productos.</p>
             <div class="formulario-footer">
-                <form>
+                <form method="post" action="./correo.php">
                     <fieldset>
-                        <input placeholder="Tu correo aquí" type="text">
-                        <button class="boton-formulario">Enviar</button>
+                        <input name="correoIndex" type="email" placeholder="Tu correo aquí" type="text">
+                        <button type="submit" name="buttonCorreo" class="boton-formulario">Enviar</button>
                     </fieldset>
                 </form>
             </div>
@@ -105,5 +107,6 @@
         
     </div>
     <script src="https://kit.fontawesome.com/083105b3ce.js" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
