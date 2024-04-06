@@ -5,76 +5,87 @@
             "nombre":  "Rubor Individual",
             "precioMinorista": "$60",
             "precioMayorista": "$45",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/ruborBissu.png"
         },
         {
             "id":2,
             "nombre":  "Rimel",
             "precioMinorista": "$90",
             "precioMayorista": "$75",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/rimelBissu.png"
         },
         {
             "id":3,
             "nombre":  "Polvo Compacto",
             "precioMinorista": "$90",
             "precioMayorista": "$75",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/polvoBissu.png"
         },
         {
             "id":4,
             "nombre":  "Sombra Quinteto",
             "precioMinorista": "$65",
             "precioMayorista": "$50",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/sombraBissu.png"
         },
         {
             "id":5,
             "nombre":  "Maquillaje Líquido",
             "precioMinorista": "$129",
             "precioMayorista": "$114",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/mliquidoBissu.png"
         },
         {
             "id":6,
             "nombre":  "Esmalte 15ml",
             "precioMinorista": "$47",
             "precioMayorista": "$32",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/esmalte15Bissu.png"
         },
         {
             "id":7,
             "nombre":  "Paleta de Contorno",
             "precioMinorista": "$100",
             "precioMayorista": "$85",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/pContornoBissu.png"
         },
         {
             "id":8,
             "nombre":  "Paleta para Rostro",
             "precioMinorista": "$105",
             "precioMayorista": "$90",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/prostroBissu.png"
         },
         {
             "id":9,
             "nombre":  "Primer Para Rostro",
             "precioMinorista": "$142",
             "precioMayorista": "$127",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/imagen2.png"
         },{
             "id":10,
             "nombre":  "Delineador en Plumón Para Ojos",
             "precioMinorista": "$65",
             "precioMayorista": "$50",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/delineadorBissu.png"
         },
         {
             "id":11,
             "nombre":  "Corrector Líquido",
             "precioMinorista": "$65",
             "precioMayorista": "$50",
-            "marca": "Bissú"
+            "marca": "Bissú",
+            "imagen": "./img/correctorBissu.png"
         }
     ]
 }

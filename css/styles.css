@@ -15,7 +15,7 @@
     --main-color5: #e9adad;
     --main-color6: #f7f7f7;
     --main-color7: #000000;
-    --main-color8: #ffffff;
+    --main-color8: #333333;
     --main-color9: #ffffff;
     --main-color0: #ffffff;
     }
@@ -395,8 +395,50 @@ i.fa-solid.fa-wrench {
 }
 .tarjeta img {
     width: 45%;
+    margin: 0 10px;
 }
-
+.productos-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+.btn-carrito {
+    padding: 6px;
+    font-size: 15px;
+    background-color: var(--main-color8);
+    color: var(--main-color0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+.btn-carrito:hover{
+    transform: scale(1.1);
+    background-color: var(--main-color0);
+    color: var(--main-color8);
+    border: 1px solid;
+    border-color: var(--main-color8);
+    transition: all .6s ease;
+}
+.btn-ahora {
+    padding: 6px;
+    font-size: 15px;
+    background-color: var(--main-color3);
+    color: var(--main-color0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+.btn-ahora:hover{
+    transform: scale(1.1);
+    background-color: var(--main-color0);
+    color: var(--main-color3);
+    border: 1px solid;
+    border-color: var(--main-color3);
+    transition: all .6s ease;
+}
 
 
 

@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (productos.length > 0) {
             const elementosHTML = productos.map(catalogo => `
             <div class="tarjeta">
-                <img alt="imagen producto" src="./img/imagen2.png">
+                <img alt="imagen producto" src="${catalogo.imagen}">
                 <div class="tarjeta-descripcion">
                     <h4>${catalogo.nombre + "-" + catalogo.marca}</h4>
                     <div class="precios">
@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             <code>${catalogo.precioMayorista}</code> 
                         </div>
                     </div>
-                    <div>
-                    <input type="button" value="añadir">
-                    <input type="button" value="comprar ahora">
+                    <div class="productos-btn">
+                    <button class="btn-carrito" type="button">Añadir al carrito&nbsp;<i class="fa-solid fa-cart-plus"></i></button>
+                    <button class="btn-ahora" type="button" >Comprar Ahora&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
