@@ -86,6 +86,192 @@
             "precioMayorista": "$50",
             "marca": "Bissú",
             "imagen": "./img/correctorBissu.png"
+        },
+        {
+            "id":12,
+            "nombre":  "Rubor en Polvo",
+            "precioMinorista": "$45",
+            "precioMayorista": "$30",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/ruborItalia.png"
+        },
+        {
+            "id":13,
+            "nombre":  "Sacapuntas Doble",
+            "precioMinorista": "$33",
+            "precioMayorista": "$18",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/sacapuntaItalia.png"
+        },
+        {
+            "id":14,
+            "nombre":  "Lapiz Delineador",
+            "precioMinorista": "$20",
+            "precioMayorista": "$13",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/lapizItalia.png"
+        },
+        {
+            "id":15,
+            "nombre":  "Lip Serum",
+            "precioMinorista": "$55",
+            "precioMayorista": "$40",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/serumItalia.png"
+        },
+        {
+            "id":16,
+            "nombre":  "High Maintenance Putty Primer",
+            "precioMinorista": "$88",
+            "precioMayorista": "$73",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/puttyItalia.png"
+        },
+        {
+            "id":17,
+            "nombre":  "Shone Gloss",
+            "precioMinorista": "$62",
+            "precioMayorista": "$40",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/glossItalia.png"
+        },
+        {
+            "id":18,
+            "nombre":  "Rubor en Crema",
+            "precioMinorista": "$65",
+            "precioMayorista": "$50",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/ruborCremaItalia.png"
+        },
+        {
+            "id":19,
+            "nombre":  "Primer Liquido Perfect",
+            "precioMinorista": "$67",
+            "precioMayorista": "$52",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/pLiquidoItalia.png"
+        },
+        {
+            "id":20,
+            "nombre":  "Delineador de Ojos Matte",
+            "precioMinorista": "$58",
+            "precioMayorista": "$43",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/delineadorItalia.png"
+        },
+        {
+            "id":21,
+            "nombre":  "Primer Relajante para Rostro",
+            "precioMinorista": "$85",
+            "precioMayorista": "$70",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/relajanteItalia.png"
+        },
+        {
+            "id":22,
+            "nombre":  "Sellador de Maquillaje",
+            "precioMinorista": "$55",
+            "precioMayorista": "$40",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/selladorItalia.png"
+        },
+        {
+            "id":23,
+            "nombre":  "Iluminador Diamond Glow",
+            "precioMinorista": "$75",
+            "precioMayorista": "$60",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/iluminadorItalia.png"
+        },
+        {
+            "id":24,
+            "nombre":  "Bálsamo Exfoliante Doble",
+            "precioMinorista": "$63",
+            "precioMayorista": "$47",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/balsamoItalia.png"
+        },
+        {
+            "id":25,
+            "nombre":  "Pomada de Ceja Lift Brow & Tame",
+            "precioMinorista": "$62",
+            "precioMayorista": "$47",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/pomadaItalia.png"
+        },
+        {
+            "id":26,
+            "nombre":  "Tinta de Labios",
+            "precioMinorista": "$50",
+            "precioMayorista": "$35",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/tintaItalia.png"
+        },
+        {
+            "id":27,
+            "nombre":  "Lip Glaze con Vitamina E",
+            "precioMinorista": "$46",
+            "precioMayorista": "$30",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/glaseItalia.png"
+        },
+        {
+            "id":28,
+            "nombre":  "Corrector Corect & Conceal ",
+            "precioMinorista": "$60",
+            "precioMayorista": "$45",
+            "marca": "Italia Deluxe",
+            "imagen": "./img/correctorItalia.png"
+        }
+        ,
+        {
+            "id":29,
+            "nombre":  "Gel para Cejas",
+            "precioMinorista": "$50",
+            "precioMayorista": "$35",
+            "marca": "Saniye",
+            "imagen": "./img/gelSaniye.png"
+        }
+        ,
+        {
+            "id":30,
+            "nombre":  "Corrector",
+            "precioMinorista": "$68",
+            "precioMayorista": "$54",
+            "marca": "Saniye",
+            "imagen": "./img/correctorSaniye.png"
+        },
+        {
+            "id":31,
+            "nombre":  "Rubor",
+            "precioMinorista": "$65",
+            "precioMayorista": "$50",
+            "marca": "Saniye",
+            "imagen": "./img/ruborSaniye.png"
+        },
+        {
+            "id":32,
+            "nombre":  "Corrector Líquido",
+            "precioMinorista": "$50",
+            "precioMayorista": "$45",
+            "marca": "Saniye",
+            "imagen": "./img/cliquidoSaniye.png"
+        },
+        {
+            "id":33,
+            "nombre":  "Primer Goodbye Pores",
+            "precioMinorista": "$55",
+            "precioMayorista": "$40",
+            "marca": "Saniye",
+            "imagen": "./img/poresSaniye.png"
+        },
+        {
+            "id":32,
+            "nombre":  "Corrector Líquido",
+            "precioMinorista": "$50",
+            "precioMayorista": "$45",
+            "marca": "Saniye",
+            "imagen": "./img/cliquidoSaniye.png"
         }
     ]
 }

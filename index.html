@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" sizes="120x120" href="./img/logo.png">
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Vally MakeUp | Entregas personales en Guadalajara</title>
 </head>
 <body>
@@ -76,12 +80,31 @@
         </div>
         <!--<a href="https://www.freepik.com/free-photo/young-woman-wearing-eyeglasses-using-laptop-against-white-background_3699765.htm#fromView=search&page=1&position=15&uuid=a50889ac-63c1-47a6-b100-d47bcb1ca0a6">Image by freepik</a>-->
     </div>
+    <div id="contacto" class="contacto">
+        <div class="info-form">
+            <h2>Contáctame</h2>
+            <h4>Rellena este formulario para poder atenderte de la manera más personalizada <br> </h4>
+        </div>
+        <div class="form">
+            <form action="./correo.php" method="POST" class="form-elementos">
+                    <label for="nombre">Nombre Completo: </label>
+                    <input type="text" name="nombre" >
+                    <label for="correoForm">Correo: </label>
+                    <input type="text" name="correoForm">
+                    <label for="asunto">Asunto: </label>
+                    <input type="text" name="asunto" >
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                    <button type="submit" name="contactoForm">Enviar Mensaje</button>
+            </form>
+        </div>
+    </div>
 
     <div class="footer">
         <div class="footer-sec1">
             <img src="./img/logo.png" alt="logo">
-            <p><b>Teléfono: </b>+01234567890</p>
-            <p><b>Correo: </b>correo@email.com</p>
+            <p><b>Teléfono: </b><a href="tel:33 2950 7367">33 2950 7367</a></p>
+            <p><b>Correo: </b><a href="mailto: correo@gmail.com">ventas@gmail.com</a></p>
         </div>
         <div class="footer-sec2">
             <h2>Menu</h2>

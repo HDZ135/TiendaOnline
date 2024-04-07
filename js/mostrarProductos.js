@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     </div>
                     <div class="productos-btn">
                     <button class="btn-carrito" type="button">Añadir al carrito&nbsp;<i class="fa-solid fa-cart-plus"></i></button>
-                    <button class="btn-ahora" type="button" >Comprar Ahora&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="btn-ahora" type="button" >Solicitar Producto&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
